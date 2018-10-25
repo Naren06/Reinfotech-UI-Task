@@ -1,0 +1,153 @@
+*{
+margin:0px;
+padding:0px;
+}
+.page{
+background:black;
+height:100vh;
+}
+.page:first-child{
+background-image:url(../images/banner-1.png);
+background-size:cover;
+}
+.page:nth-child(2){
+background-image:url(../images/banner-2.png);
+background-size:cover;
+}
+.page:nth-child(3){
+background-image:url(../images/banner-3.png);
+background-size:cover;
+}
+.header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+.logo img{
+position:relative;
+top:10px;
+left:15px;
+}
+.media-icon a{
+margin-right:15px;
+}
+.headline{
+margin-top:200px;
+}
+#firstPage h2{
+font-size:48px;
+color:white;
+font-family:myraid Pro;
+margin-bottom:5px;
+}
+
+.headline{
+display:flex;
+align-items:center;
+flex-direction: column;
+}
+.search-container form{
+border-bottom:1px solid #a0cf32;
+padding-bottom:5px;
+}
+.search-container form input{
+background:transparent;
+width:200px;
+color:white;
+border:none;
+outline:none;
+}
+.search-container form input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #afaeae;
+    font-size:14px;
+  }
+  .search-container form input::-moz-placeholder { /* Firefox 19+ */
+    color: #a7a6a6;
+  }
+  .search-container form input:-ms-input-placeholder { /* IE 10+ */
+    color: #a7a6a6;
+  }
+  .search-container form input:-moz-placeholder { /* Firefox 18- */
+    color: #a7a6a6;
+  }
+  .bottom-text{
+    display: flex;
+    align-items:center;
+    flex-direction:column;
+    color:white; 
+  }
+  .bottom-text p a{
+   color:white;
+  }
+  .bottom-text-parent{
+  margin-top:220px;
+  }
+  .search-container button{
+   background:none;
+   border:none;
+   position:relative;
+   top:3px;
+   cursor:pointer;
+  }
+  .aero{
+  border:1px solid white;
+  border-radius:50%;
+  padding:4px 10px;
+  margin-top:10px;
+  }
+
+  #secondPage,#thirdPage{
+  display:flex;
+  color:white;
+  justify-content:space-between;
+  }
+  .tag{
+  flex:1;
+  }
+  .c-mb-2{
+  margin-bottom:6px;
+  }
+  .description{
+  display:flex;
+  align-items:center;
+  flex:0 0  36vw;
+  background:#a0cf32;
+  }
+  .description-content{
+  width:70%;
+  margin:auto;
+  }
+  .description-content img,.description-content button{
+  display:block;
+  margin:auto;
+  margin-bottom:20px;
+  }
+  .description-content p{
+  line-height:1.4em;
+  text-align:justify;
+  font-family:open sans;
+  }
+  .description-content button{
+  background:none;
+  border:1px solid white;
+  padding:6px 30px;
+  border-radius:5px;
+  margin-top:20px;
+  color:white;
+  cursor:pointer;
+  }
+
+  .tag{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  text-align:center;
+  font-size:32px;
+  }
+  .tag p:first-child{
+  color:#a0cf32;
+  }
+ 
+
+
