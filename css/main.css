@@ -1,6 +1,7 @@
 *{
 margin:0px;
 padding:0px;
+font-family:myraid Pro;
 }
 .page{
 background:black;
@@ -125,7 +126,6 @@ outline:none;
   .description-content p{
   line-height:1.4em;
   text-align:justify;
-  font-family:open sans;
   }
   .description-content button{
   background:none;
